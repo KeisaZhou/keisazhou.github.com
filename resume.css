@@ -1,0 +1,36 @@
+body {  font-family: "Adobe Garamond Pro"; width: 1200px;
+}
+
+.tablehead{  background-color: #ffffff; border: none; border-image-width:0;
+}
+.tdhead{  height: 200px; width: 300px;background-color: #dc291e;
+}
+.bhead{  color: #ffffff;  text-align: center;  font-size: 40px;
+}
+.phead{  text-align: center;  color: white;  padding:40px;
+}
+
+.ulhead{  text-align: center;  font-size: 14px;  word-spacing: 10px;  color:#ffffff;
+}
+.ulnavigation {  margin:0;  padding:0;  text-align: center;
+}
+.linavigation{  display: inline;  color: white;  background-color: #dc291e;  overflow:hidden;  float:left;
+}
+td ul li a{  display:block;  width:300px;  height: 20px; text-align: center;  padding:1px; font-family: Futura;
+}
+a:link {  color: white;
+}
+a:visited{  color: black;
+}
+a:hover{  color: white;
+}
+
+.tableEducation{  font-family: Futura;border: #dc291e 2px solid; border-left-style: none; border-right-style: none; border-bottom-style: none;
+    width: 912px; vertical-align: middle; border-image-width:0;
+}
+.tdEducation{  height:40px; width: 300px;
+}
+.peducation{  font-size: 40px;  color: #000000; margin:0;  padding:0; text-indent: 10px; text-align: center;
+}
+.tableEducation img{  height:32px;  width: 32px;
+}
