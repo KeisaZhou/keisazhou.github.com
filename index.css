@@ -1,4 +1,4 @@
-body{background:url("pic/index/City Landscape_Horizonal_26.jpg") center fixed; background-size: 100%;
+body{background:url("pic/index/City Landscape_Horizonal_26.jpg") center fixed; background-size: 100%;position: absolute;top: 10%;left: 20%;right: 20%;
 }
 
 h1{text-align: center; font-size: 100px;color:#dc291e;font-family: Dimitri;

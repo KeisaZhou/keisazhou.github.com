@@ -1,4 +1,4 @@
-body {  font-family: "Adobe Garamond Pro"; width: 1200px;
+body {  font-family: "Adobe Garamond Pro"; width: 1200px;position: absolute;top: 10%;right:20%;left: 20%;
 }
 
 .tablehead{  background-color: #ffffff; border: none; border-image-width:0;
