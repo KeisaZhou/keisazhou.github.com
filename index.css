@@ -1,11 +1,73 @@
-body{background:url("pic/index/City Landscape_Horizonal_26.jpg") center fixed no-repeat;
-    background-size: 100%;position: absolute;top: 10%;left: 20%;right: 20%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1{text-align: center; font-size: 80px;color:#dc291e;font-family: Dimitri;
+h1{text-align: center; font-size: 80px;color:#dc291e;font-family: Helvetica;
 }
-h2{text-align: center; font-size: 50px; color:ghostwhite;font-family: "Dimitri Swank"
+h2{text-align: center; font-size: 50px; color:ghostwhite;font-family: "Helvetica Neue LT Pro"
 }
-h3{text-align: center; font-size: 20px; color:ghostwhite;font-family: "Dimitri Swank"
+h3{text-align: center; font-size: 20px; color:ghostwhite;font-family: "Helvetica Neue LT Pro"
 }
-a{color: white;font-family: Futura;}
+a{color: white;font-family: "Helvetica Neue";
+}
+
+
+#index {
+    background:url("pic/index/City Landscape_Horizonal_26_dark.png") no-repeat fixed;
+    background-size: 100%;
+    height: 1920px;
+}
+
+#header{
+    height:100px;
+}
+#headercenter{
+    height: 100px;
+    background-color: dimgrey;
+    opacity: 0.9;
+}
+#headerlogo{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+#headerlogo img{
+    height: 50px;
+    margin: 0px;
+    padding: 32.5px 25px;
+}
+#headerlist{
+    float: right;
+    padding-right: 300px;
+}
+.navigation,ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.navigation,li{
+    display: inline;
+}
+.navigation,a{
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+
+}
+
+#titlecontent h1{
+    margin-top: 180px;
+}
+#titlecontent h2{
+    margin-bottom: 60px;
+}
+#titlecontent a{
+    background-color:#ffa400;
+    border-radius: 3px;
+    text-align: center;
+    padding: 8px 8px;
+    margin: 25px;
+}
