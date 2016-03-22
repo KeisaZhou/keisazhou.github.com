@@ -2,45 +2,79 @@
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Wuke Zhou Resume</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <link rel="stylesheet" href="resume.css">
+    <script src="bootstrap/jquery-1.12.2.min.js"></script>
+    <script src="bootstrap/bootstrap.js"></script>
 </head>
 
-<body>
+<body class="text-center">
 
-<table class="tablehead">
-    <tr>
-        <td class="tdhead">
-            <p class="phead">
-                <b class="bhead">Wuke Zhou</b><br>
-                Designer/Photographer
-            </p>
-        </td>
-        <td class="tdhead">
+<nav class="nav navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="Index.html" style="padding: 5px">
+                <img src="pic/index/logo.png" style="display: inline-block" height="40px">
+                <p style="display: inline-block" class="headertext">P.I. Portfolio</p>
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="Index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Kitchen.html">Kitchen</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="mailto:wuke.zhou.1991@hotmail.com?"><span class="glyphicon glyphicon-comment"></span>
+                    Message Me?</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="jumbotron" style="margin-bottom: 0px">
+    <div class="row">
+        <div class="col-md-4" style="padding-top: 40px">
+            <div class="h1">Wuke Zhou</div>
+            <div class="h4">Designer/Photographer</div>
+        </div>
+        <div class="col-md-4">
             <img src="pic/portrait.png">
-        </td>
-
-        <td class="tdhead">
-            <ul type="none" class="ulhead">
+        </div>
+        <div class="col-md-4" style="color: black">
+            <ul type="none" style="padding-top: 60px">
                 <li>+8613811653987</li>
                 <li>wkzhou@fortinet.com</li>
                 <li>instagram:keisasun</li>
                 <li>wechat:keisamoon</li>
             </ul>
-        </td>
-    </tr>
-
-    <tr>
-        <td colspan="3">
-            <ul type="none" class="ulnavigation">
-                <li class="linavigation"><a href="#Education">Education</a></li>
-                <li class="linavigation"><a href="#Experience">Experience</a></li>
-                <li class="linavigation"><a href="#Skill">Skill</a></li>
-            </ul>
-        <td>
-    </tr>
-</table>
-
+        </div>
+    </div>
+</div>
+<div class="btn-group btn-group-justified btn-group-lg">
+        <div style="display: inline-block">
+            <button class="active btn btn-primary">
+                Education
+            </button>
+        </div>
+        <div style="display: inline-block">
+            <button class="btn btn-primary">
+                Education
+            </button>
+        </div>
+        <div style="display: inline-block">
+            <button class="btn btn-primary">
+                Education
+            </button>
+        </div>
+</div>
 <table class="tableEducation">
     <tr>
         <td class="tdEducation">
@@ -50,9 +84,10 @@
 
     <tr>
         <td class="tdEducation">
-            <ul  type="none">
+            <ul type="none">
                 <li>
-                    <b style="font-size: x-large">Northern Arizona University</b><br><img src="pic/education_icon/NAU.png">
+                    <b style="font-size: x-large">Northern Arizona University</b><br><img
+                        src="pic/education_icon/NAU.png">
                 </li>
                 <li>
                     From 2011-2015
@@ -69,9 +104,10 @@
 
     <tr>
         <td class="tdEducation">
-            <ul  type="none">
+            <ul type="none">
                 <li>
-                    <b style="font-size: x-large">Beijing International Studies University</b><br><img src="pic/education_icon/BISU.jpg">
+                    <b style="font-size: x-large">Beijing International Studies University</b><br><img
+                        src="pic/education_icon/BISU.jpg">
                 <li>
                     From 2009-2013
                 </li>
@@ -84,7 +120,8 @@
         </td>
     </tr>
 
-</table><br>
+</table>
+<br>
 
 <table class="tableExperience">
     <tr>
@@ -95,7 +132,7 @@
 
     <tr>
         <td class="tdExperience">
-            <ul  type="none">
+            <ul type="none">
                 <li class="liExperience">
                     <b style="font-size: x-large">Fortinet</b><br>
                     <img src="pic/work_icon/Fortinet_Logo_1200px.png">
@@ -115,7 +152,7 @@
 
     <tr>
         <td class="tdExperience">
-            <ul  type="none">
+            <ul type="none">
                 <li class="liExperienceNAU">
                     <b style="font-size: x-large">Northern Arizona University</b><br>
                     <img src="pic/work_icon/NAU_CAL_2C.png">
@@ -132,7 +169,8 @@
         </td>
     </tr>
 
-</table><br>
+</table>
+<br>
 
 <table class="tableSkill">
     <tr>
@@ -143,7 +181,7 @@
 
     <tr>
         <td class="tdSkill">
-            <ul  type="none">
+            <ul type="none">
                 <li class="liSkill">
                     <b style="font-size: x-large">Photography<br></b>Freelance Photographer<br>
                     <img src="pic/skill_icon/square.png">
@@ -163,7 +201,7 @@
 
     <tr>
         <td class="tdSkill">
-            <ul  type="none">
+            <ul type="none">
                 <li class="liSkill">
                     <b style="font-size: x-large">Software</b><br>
                 </li>
@@ -179,9 +217,8 @@
         </td>
     </tr>
 
-</table><br>
-
-
+</table>
+<br>
 
 
 </body>
